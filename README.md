@@ -2,9 +2,19 @@
 
 A 3D first-person browser game built with [Three.js](https://threejs.org/) and [Vite](https://vitejs.dev/).
 
+🎮 **Play online:** https://tonedleo.github.io/Uninvited/
+
 ---
 
-## Getting started
+## One-time GitHub Pages setup
+
+1. Go to **Settings → Pages** in the GitHub repo.
+2. Under *Build and deployment*, set **Source** to **GitHub Actions**.
+3. Push to `main` — the game deploys automatically within ~1 minute.
+
+---
+
+## Getting started (local dev)
 
 ```bash
 npm install
