@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uninvited</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <canvas id="game-canvas"></canvas>
+
+    <!-- Menu overlay -->
+    <div id="menu" class="overlay">
+      <h1 class="game-title">UNINVITED</h1>
+      <div class="menu-buttons">
+        <button id="btn-play">Play</button>
+        <button id="btn-settings">Settings</button>
+      </div>
+    </div>
+
+    <!-- Loading overlay -->
+    <div id="loading" class="overlay hidden">
+      <p class="loading-text">Loading...</p>
+      <div class="loading-bar-bg">
+        <div id="loading-bar" class="loading-bar"></div>
+      </div>
+    </div>
+
+    <!-- HUD (shown during gameplay) -->
+    <div id="hud" class="hidden">
+      <div id="crosshair">+</div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
